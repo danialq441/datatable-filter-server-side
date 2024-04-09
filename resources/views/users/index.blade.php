@@ -55,8 +55,6 @@
             });
 
             $('#users-table thead th').append('<br><input type="text" placeholder="Search" />');
-
-
             table.columns().every(function() {
                 var that = this;
                 $('input', this.header()).on('keyup change', function() {
